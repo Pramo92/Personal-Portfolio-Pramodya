@@ -56,7 +56,7 @@ const Hero = () => {
             transition={{duration:1, delay :1.2}} className="w-full lg:w-1/3 flex justify-center lg:justify-end items-center pt-20 pl-6 pr-10 pb-12">
                 <div className="relative">
                     <div className="absolute inset-0 border-4 border-cyan-700 rounded-lg transform translate-x-4 translate-y-4 z-0"></div>
-                    <img src={profilePic} alt="Pramodya Madhubhashini" className="relative w-full h-auto max-h-[230px] object-cover rounded-lg shadow-lg border-4 border-cyan-500 z-10" />
+                    <img src={profilePic} alt="Pramodya Madhubhashini" className="relative w-full h-auto max-h-[300px] object-cover rounded-lg shadow-lg border-4 border-cyan-500 z-10" />
                     <div className="absolute inset-0 bg-black opacity-40 rounded-lg z-10"></div> {/* Black overlay */}
                 </div>
             </motion.div>
