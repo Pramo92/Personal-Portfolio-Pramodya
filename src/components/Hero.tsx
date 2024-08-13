@@ -4,7 +4,7 @@ import cvDocument from "../assets/CV_Pramodya Madhubhashini.pdf";
 import { FaDownload } from 'react-icons/fa';
 import { motion } from "framer-motion"
 
-const container = (delay) => ({
+const container = (delay: number) => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
     x: 0,
