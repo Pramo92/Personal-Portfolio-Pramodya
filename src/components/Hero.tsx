@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/PM.jpg";
-import cvDocument from "../assets/CV_Pramodya Madhubhashini.pdf";
+import cvDocument from "../assets/Pramodya_Madhubhashini_CV.pdf";
 import { FaDownload } from 'react-icons/fa';
 import { motion } from "framer-motion"
 
