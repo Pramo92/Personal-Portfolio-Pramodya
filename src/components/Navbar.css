@@ -1,0 +1,119 @@
+.nav-wrapper{
+  position: fixed;
+  top: 0;           /* Align it to the top of the page */
+  width: 100%;      /* Ensure the navbar spans the full width of the viewport */
+  z-index: 1000;
+}
+
+.nav-content {
+    margin: -1rem 0rem 1.5rem;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 30px;
+    
+  }
+  
+  .logo {
+    width: 3rem;
+  }
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0 40px 0 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin-left: 20px;
+  }
+  
+  .menu-items {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-content ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-content li {
+    margin: 1.5rem;
+  }
+
+  .menu-items {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 1.1px;
+  }
+  
+  .menu-items::before {
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #93d7fe 0%, #06A6D2 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+  }
+  
+  .menu-items:hover::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #161314;
+    width: 70%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+  }
+
+  .nav-menu.open {
+    height: 300px; /* Adjust based on your menu item count */
+  }
+
+  .nav-menu li {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #fff;
+  }
+}
+
+
+/* Base styles */
+
+
+
+
+/* Responsive styles */
+
+
+  
