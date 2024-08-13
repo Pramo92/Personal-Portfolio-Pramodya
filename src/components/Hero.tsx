@@ -57,7 +57,7 @@ const Hero = () => {
                 <div className="relative">
                     <div className="absolute inset-0 border-4 border-cyan-700 rounded-lg transform translate-x-4 translate-y-4 z-0"></div>
                     <img src={profilePic} alt="Pramodya Madhubhashini" className="relative w-full h-auto max-h-[340px] object-cover rounded-lg shadow-lg border-4 border-cyan-500 z-10" />
-                    <div className="absolute inset-0 bg-black opacity-40 rounded-lg z-10"></div> {/* Black overlay */}
+                    <div className="absolute inset-0 bg-black opacity-20 rounded-lg z-10"></div> {/* Black overlay */}
                 </div>
             </motion.div>
             
