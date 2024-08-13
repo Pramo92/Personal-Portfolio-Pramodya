@@ -9,13 +9,13 @@ const Project = () => {
       </h2>
       <div className="relative z-10">
         <motion.h1 className="my-12 text-center text-4xl z-10">Projects</motion.h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 mt-20 px-[70px]">
+        <motion.div 
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 mt-20 px-[70px]">
           {PROJECTS.map((project, index) => (
             <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 100 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.2, ease: "easeOut" }}
+            key={index}
               className="bg-[#161314] text-white rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-110"
             >
               <div className="relative w-full pb-[50.25%] overflow-hidden">
@@ -50,7 +50,7 @@ const Project = () => {
               </div>
             </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
