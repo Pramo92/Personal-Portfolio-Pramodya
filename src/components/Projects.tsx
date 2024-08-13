@@ -11,7 +11,7 @@ const Project = () => {
         <motion.h1 className="my-12 text-center text-4xl z-10">Projects</motion.h1>
         <motion.div 
         initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 mt-20 px-[70px]">
           {PROJECTS.map((project, index) => (
             <motion.div
