@@ -33,7 +33,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcases projects, skills, and contact details, serving as a digital resume to connect with potential clients.",
     technologies: ["HTML", "CSS", "React JS", "Tailwind CSS"],
-    github :"https://github.com",
+    github :"https://github.com/Pramo92/Personal-Portfolio-Pramodya",
   },
   {
     title: "Restaurant Management System",
@@ -65,7 +65,7 @@ export const CONTACT = {
   
   phoneNo: "+94 75 576 5567 ",
   email: "madupro92@gmail.com",
-  github: "https://github.com",
+  github: "https://github.com/Pramo92",
   linkedin : "http://linkedin.com/in/pramodya-madhubhashini-42783a2b2",
   instagram :"https://instagram.com/__.prxmx.__",
 };
