@@ -12,11 +12,11 @@ const Project = () => {
         <motion.div 
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 mt-20 px-[70px]">
+        transition={{ duration: 1, ease: "easeOut" }}className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 mt-20 px-[70px]">
           {PROJECTS.map((project, index) => (
             <motion.div
             key={index}
-              className="bg-[#161314] text-white rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-110"
+              className="bg-[#161314] text-white rounded-lg overflow-hidden shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-110"
             >
               <div className="relative w-full pb-[50.25%] overflow-hidden">
                 <img

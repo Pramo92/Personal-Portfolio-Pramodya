@@ -57,7 +57,7 @@ const Technologies = () => {
           <motion.div
           whileInView={{opacity:1, x:0}}
           initial={{opacity:0,x:-100}}
-          transition={{duration:0.5}} className="flex flex-wrap items-center justify-center gap-4 my-10">
+          transition={{duration:1}} className="flex flex-wrap items-center justify-center gap-4 my-10">
             <div className="rounded-full bg-[#5593e8] bg-opacity-10 p-4">
               <DiJava className="text-5xl text-[#f89820]" />
             </div>
@@ -128,7 +128,7 @@ const Technologies = () => {
           <motion.div
           whileInView={{opacity:1, x:0}}
           initial={{opacity:0,x:100}}
-          transition={{duration:0.5}} className="flex flex-wrap justify-center gap-2 mt-20">
+          transition={{duration:1}} className="flex flex-wrap justify-center gap-2 mt-20">
             {skills.map((skill, index) => (
               <div key={skill.name} className="flex flex-col items-center" style={{ margin: '25px' }}>
                 <div style={{ width: '90px', height: '90px' }}>

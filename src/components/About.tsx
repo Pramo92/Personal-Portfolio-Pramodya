@@ -16,7 +16,7 @@ const About = () => {
           <div className="flex items-center lg:justify-center">
             <motion.img whileInView={{opacity:1, x:0}}
             initial={{opacity:0,x:-100}}
-            transition={{duration:0.7}} className="rounded-2xl w-[80%]" src={aboutImg} alt="about" />
+            transition={{duration:1}} className="rounded-2xl w-[80%]" src={aboutImg} alt="about" />
           </div>
         </div>
         <div className="w-full lg:w-1/2">
