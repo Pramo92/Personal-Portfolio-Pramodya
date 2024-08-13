@@ -19,7 +19,7 @@ const container = (delay: number) => ({
 
 const Hero = () => {
     return (
-      <div id="home" className="pt-[150px] pb-10 ml-3 lg:mb-35">
+      <div id="home" className="pt-[150px] pb-10 ml-2 lg:mb-35">
         <div className="flex flex-wrap items-center justify-between">
             <div className="w-full lg:w-2/3">
                 <div className="flex flex-col items-center lg:items-start">
